@@ -19,7 +19,8 @@ int main () {
     printf("could not create process\n");
     exit(1);
   } else if(pid == 0) { 
-    sleep(1);
+    \\sleep(1);
+    \\see what effect it has
     printf("Hello from the child process\n");
   } else if(pid > 0) {
   printf("Hello from the parent process.\n");

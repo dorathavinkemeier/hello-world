@@ -5,14 +5,14 @@
 //add in isaacs code to test
 //add code
 
-#include <sys/typs.h>
+#include <sys/types.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 // what is the difference between exit() and return()??
 
 
-int main {
+int main () {
   pid_t pid = 0;
   pid = fork();
   if(pid < 0) {
